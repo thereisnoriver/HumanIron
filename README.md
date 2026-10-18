@@ -2,7 +2,7 @@
 
 HumanIron is a **2020 two-person team project** exploring a Raspberry Pi camera system that provides reminders for desk posture, blinking, and stretching. This repository is a fork of the [original team repository](https://github.com/icymunchhhiip/HumanIron).
 
-The code is preserved as a historical prototype. It has **not** been revalidated on current Raspberry Pi hardware or with today's third-party APIs. The project's individual implementation responsibilities cannot be reliably reconstructed from the available Git history, so no individual feature ownership is claimed here.
+The team **completed and tested the prototype on physical hardware in 2020**. The code is preserved as a historical project and has **not** been revalidated on current Raspberry Pi hardware or with today's third-party APIs. The project's individual implementation responsibilities cannot be reliably reconstructed from the available Git history, so no individual feature ownership is claimed here.
 
 ## Prototype features
 
@@ -13,7 +13,7 @@ The code is preserved as a historical prototype. It has **not** been revalidated
 | Stretch reminder | Plays an audio prompt periodically with a rest interval. |
 | Raspberry Pi interaction | Uses PiCamera and GPIO pin 17 for camera capture and button/relay experiments. |
 
-The modules are exploratory scripts rather than a validated, unified application. In particular, `mergedThreading.py` attempts to coordinate the features with asyncio, but its concurrent scheduling and error handling have not been verified.
+The team completed the original project and performed physical-device tests in 2020, but the repository does not include test logs, measured accuracy, or a reproducible validation procedure. The modules are exploratory scripts rather than a currently validated, unified application. In particular, `mergedThreading.py` attempts to coordinate the features with asyncio, but its concurrent scheduling and error handling have not been verified.
 
 ## Technology
 
@@ -56,6 +56,6 @@ The modules are exploratory scripts rather than a validated, unified application
 
 ## Attribution
 
-Developed as a two-person team project in 2020. The original source was published under [icymunchhhiip/HumanIron](https://github.com/icymunchhhiip/HumanIron), and this fork is maintained for educational and portfolio documentation. The inherited commits are attributed to the original repository account; they cannot establish each teammate's individual implementation scope.
+Completed and physically tested as a two-person team project in 2020. The original source was published under [icymunchhhiip/HumanIron](https://github.com/icymunchhhiip/HumanIron), and this fork is maintained for educational and portfolio documentation. The inherited commits are attributed to the original repository account; they cannot establish each teammate's individual implementation scope.
 
 No license file was present in the original project. Reuse of third-party model and media assets should be checked against their respective terms before redistribution or further development.
