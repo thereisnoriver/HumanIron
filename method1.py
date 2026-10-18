@@ -18,7 +18,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.IN, GPIO.PUD_UP)
 
 
-APP_KEY = '61438e2034d5616b9ecaf5ab8ccf7bf7'
+APP_KEY = os.environ.get('KAKAO_POSE_API_KEY', '')
 
 session = requests.Session()
 session.headers.update({'Authorization': 'KakaoAK ' + APP_KEY})
